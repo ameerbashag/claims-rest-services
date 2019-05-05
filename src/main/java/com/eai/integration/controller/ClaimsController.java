@@ -36,7 +36,7 @@ import io.swagger.annotations.ApiResponses;
  */
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/v1")
 @Api(value="Claims API", 
 description="Claims API Resources")
 public class ClaimsController {
