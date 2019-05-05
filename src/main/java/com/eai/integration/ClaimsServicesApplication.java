@@ -2,14 +2,17 @@ package com.eai.integration;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.bind.annotation.RestController;
+
+/**
+ * @author AMEER
+ *
+ */
 
 @SpringBootApplication
-@RestController
-public class ClaimsRestServicesApplication {
+public class ClaimsServicesApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ClaimsRestServicesApplication.class, args);
+		SpringApplication.run(ClaimsServicesApplication.class, args);
 	}
-	
+
 }
